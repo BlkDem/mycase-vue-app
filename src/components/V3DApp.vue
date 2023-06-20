@@ -21,7 +21,6 @@ export default {
     this.uuid = window.crypto.randomUUID();
     this.containerId = `v3d-container-${this.uuid}`;
     this.fsButtonId = `fullscreen-button-${this.uuid}`;
-    // this.sceneURL = 'v3dApp/app.gltf';
     this.sceneURL = 'u1/u1.gltf';
 
     this.loadApp = async function() {
